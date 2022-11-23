@@ -38,4 +38,11 @@
 
 `docker builds -t testName:testTag .` to give a name and tag to the image.  
 
+`docker push <imgName>` to share.  
+`docker pull <imgName>` to copy.  
+`docker tag <oldImgName>:<oldTagName> <newImgName>:<newTagName>` newTagName can be copied from docker hub. Old image stay.  
+`docker login` to login docker hub.  
+ 
+
+
 
